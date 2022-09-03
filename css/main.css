@@ -72,6 +72,7 @@ body {
 /* Start Header */
 .header {
   padding: 20px;
+  background-color: white;
 }
 .header .container {
   display: flex;
@@ -205,6 +206,7 @@ body {
 .services {
   padding-top: var(--Section-Padding);
   padding-bottom: var(--Section-Padding);
+  background-color: white;
 }
 .services .services-content {
   display: grid;
@@ -293,6 +295,7 @@ body {
 /* Start About */
 .about {
   padding: var(--Section-Padding) 0 calc(var(--Section-Padding) + 60px);
+  background-color: white;
 }
 .about .about-content {
   margin-top: var(--Content-Margin-Top);
@@ -352,6 +355,7 @@ body {
   flex-basis: calc(100% - 500px);
 }
 .about .about-content .text p:first-of-type {
+  color: black;
   font-weight: bold;
   line-height: 2;
   margin-bottom: 50px;
